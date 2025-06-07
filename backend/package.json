@@ -2,8 +2,9 @@
   "name": "api-agenda",
   "version": "1.0.0",
   "description": "",
-  "main": "nodemon src/app.js",
+  "main": "src/app.js",
   "scripts": {
+    "dev": "nodemon src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,6 +12,9 @@
   "license": "ISC",
   "dependencies": {
     "express": "^5.1.0",
-    "nodemon": "^3.1.10"
-  }
+    "nodemon": "^3.1.10",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  },
+  "type": "module"
 }
