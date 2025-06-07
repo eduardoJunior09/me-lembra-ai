@@ -1,0 +1,14 @@
+# Node.js
+node_modules/
+.env
+*.log
+
+# Vite/React
+frontend/dist/
+
+# SQLite
+backend/*.db
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
